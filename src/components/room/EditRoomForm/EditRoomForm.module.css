@@ -1,0 +1,61 @@
+.form {
+  padding: 16px 40px;
+  box-shadow: 0 5px 15px 3px rgba(159, 159, 159, 0.282);
+  border-radius: 8px;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.form-control label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.form-control input {
+  border: none;
+  border-bottom: 1px solid rgb(130, 130, 130);
+  padding-bottom: 6px;
+  font-size: 14px;
+}
+
+.form-control input:focus,
+.form-control select:focus,
+.form-control textarea:focus {
+  outline: none;
+}
+
+.form-control textarea {
+  height: 50px;
+  overflow-y: scroll;
+  resize: none;
+}
+
+.form button {
+  border: none;
+  color: white;
+  background-color: #008080;
+  padding: 12px 32px;
+}
+
+.half-below {
+  display: flex;
+  justify-content: space-between;
+}
+
+.half-below div {
+  width: 25%;
+}
+
+.half-below button {
+  align-self: center;
+}
+
+.noti {
+  color: green;
+  font-weight: bold;
+}

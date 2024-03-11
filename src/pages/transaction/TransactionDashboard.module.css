@@ -1,0 +1,9 @@
+.dashboard {
+  padding: 20px 16px 32px;
+}
+
+.dashboard h2 {
+  font-size: 18px;
+  color: gray;
+  font-weight: normal;
+}

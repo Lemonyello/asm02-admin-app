@@ -1,0 +1,20 @@
+.dashboard {
+  padding: 16px;
+  padding-bottom: 0;
+}
+
+.dashboard h2 {
+  font-size: 18px;
+  color: gray;
+  font-weight: normal;
+}
+
+.dashboard a {
+  color: #0f870f;
+  border: 1px solid #0f870f;
+  text-decoration: none;
+  align-self: center;
+  border-radius: 4px;
+  padding: 4px;
+  font-size: 14px;
+}

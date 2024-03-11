@@ -1,0 +1,49 @@
+.info-board {
+  width: 24%;
+  box-shadow: 2px 3px 15px 3px rgba(180, 180, 180, 0.185);
+  border-radius: 8px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-board p {
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+.info-board h5 {
+  text-transform: uppercase;
+  color: grey;
+  font-size: 12px;
+}
+
+.icon-user,
+.icon-cart,
+.icon-dollar,
+.icon-wallet {
+  padding: 4px;
+  align-self: flex-end;
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+.icon-user {
+  color: rgb(252, 48, 82);
+  background-color: pink;
+}
+
+.icon-cart {
+  color: rgb(223, 172, 3);
+  background-color: rgb(243, 231, 174);
+}
+
+.icon-dollar {
+  color: green;
+  background-color: rgb(170, 241, 170);
+}
+
+.icon-wallet {
+  color: rgb(99, 11, 150);
+  background-color: rgb(199, 169, 227);
+}

@@ -1,0 +1,67 @@
+.header,
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+.header {
+  text-transform: capitalize;
+  border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.header h5 {
+  font-size: 13px;
+  padding-left: 8px;
+  border-left: 1px solid rgb(174, 174, 174);
+}
+
+.item {
+  border-bottom: 1px solid rgb(199, 199, 199);
+  font-size: 12px;
+}
+
+.item p {
+  margin-bottom: 0;
+}
+
+.id {
+  width: 16%;
+}
+
+.title {
+  width: 14%;
+}
+
+.description {
+  width: 35%;
+}
+
+.price {
+  width: 7%;
+}
+
+.max-people {
+  width: 10%;
+}
+
+.action {
+  width: 11%;
+}
+
+.action button:first-child {
+  color: #e24262;
+  border: 1px dashed #e24262;
+  background-color: white;
+  margin-right: 8px;
+  border-radius: 4px;
+}
+
+.action button:nth-child(2) {
+  color: #f0f01d;
+  border: 1px dashed #f0f01d;
+  background-color: white;
+  margin-right: 8px;
+  border-radius: 4px;
+}

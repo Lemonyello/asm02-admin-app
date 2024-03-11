@@ -1,0 +1,44 @@
+.side-bar {
+  border-right: 1px solid rgb(172, 172, 172);
+  width: 15%;
+  height: 100vh;
+}
+
+.side-bar > div {
+  padding: 8px;
+}
+
+.side-bar h1 {
+  border-bottom: 1px solid rgb(172, 172, 172);
+  font-size: 18px;
+  font-weight: bold;
+  padding: 16px;
+  text-align: center;
+}
+
+.icon,
+.side-bar h1 {
+  color: #7451f8;
+}
+
+.icon {
+  margin-right: 12px;
+  font-size: 12px;
+}
+
+.side-bar h3 {
+  font-size: 12px;
+  color: rgb(67, 67, 67);
+  text-transform: uppercase;
+}
+
+.side-bar h3:not(:first-child) {
+  margin: 16px 0;
+}
+
+.side-bar a {
+  text-decoration: none;
+  color: rgb(67, 67, 67);
+  font-size: 14px;
+  text-transform: capitalize;
+}

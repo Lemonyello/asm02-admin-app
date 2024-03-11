@@ -1,0 +1,20 @@
+.pagin {
+  display: flex;
+  border-top: 1px solid rgb(189, 189, 189);
+  justify-content: end;
+  margin-top: 16px;
+  padding: 16px;
+  position: absolute;
+  bottom: 0;
+  width: 81%;
+}
+
+.pagin p {
+  margin-right: 32px;
+  font-size: 14px;
+}
+
+.buttons button {
+  border: none;
+  background-color: white;
+}
